@@ -484,7 +484,7 @@ export default function dropdownMultiselectController(
 		}
 	}
 
-	function keyDownToggleSearch() {
+	function keyDownToggleSearch(event) {
 		if (!$scope.settings.keyboardControls) {
 			return;
 		}
